@@ -1,0 +1,74 @@
+body{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color:darkseagreen;
+}
+h1{
+  text-align: center;
+}
+.container{
+  width:90%;
+  height: 50em;
+  margin:auto;
+  padding: 1em;  
+}
+.puppyListDiv{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap:20px;
+  width:90%;
+  height: 45em;
+  margin: auto;
+  padding:2em;
+  border-radius: 10px;
+  border: 7px double brown;
+  background-color:darkolivegreen;
+  overflow-y: auto; 
+}
+.puppyList{
+  margin: auto;
+  padding: 20px 10px;
+  text-align: center;
+  font-size: large;
+  width:20%;
+  height: 8em;
+  border-radius: 20px;
+  background-color: rgba(96, 221, 179,0.4);
+}
+.breed{
+  padding: 20px;
+}
+.puppyList:hover {
+  background-color:rgb(160, 137, 8);
+}
+.selectedPup{
+  height: auto;
+  width: 40%;
+  margin: 90px auto;
+  padding:40px;  
+  font-size: 1em;
+  border: 7px double brown;
+  border-radius: 7px;
+  background-color: rgba(68, 148, 120,0.3);
+}
+h3{
+  font-size: 2em;
+  text-align: center;
+}
+.puppyDetails{
+  display:flex;
+   gap:20px;
+ }
+.pupImage{
+  height: 250px;
+  width:auto;
+}
+.bold{ 
+  font-weight: bold;
+}
+
+.goBackLink{
+  font-style: italic;  
+  font-weight: bold;
+  float:right;
+}
